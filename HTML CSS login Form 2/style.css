@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    font-family: Poppins,sans-serif;
+}
+
+.container p{
+    font-weight: 500;
+}
+
+.container{
+    padding: 20px 30px 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2cm;
+    border: 2px;
+    background: #4d62e4;
+    border-radius: 15px;
+}
+
+.container .special-buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 15px 10px;
+}
+
+.container .special-buttons button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #4d62e4;
+    font-weight: bold;
+}
+
+.container .special-buttons i{
+    font-size: 20px;
+}
+
+.Or{
+    display: inline-block;
+    height: 1px;
+    width: 90%;
+    background: #fff;
+    text-align: top;
+    justify-content: center;
+    margin: 5px;
+}
+
+.Or p{
+    margin: 10px ;
+}
+
+form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+}
+
+.Form-Signup input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #4d62e4;
+    font-weight: 500;
+
+}
+
+.Special-Links a{
+    transition: all 0.3s ease;
+}
+
+.Special-Links a:hover{
+    color: black;
+}
+
+.Special-Links{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Button-Sumbit button{
+    padding: 15px;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
